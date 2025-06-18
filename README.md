@@ -36,10 +36,13 @@ A Node.js service for identifying contact details on the basis of provided infor
 
 # API testing
 
-- For testing the APIs you can setup on local as stated above or use the link of render
-  Link: https://bitespeed-0qid.onrender.com/api/identify.
+- For testing the APIs you can setup on local as stated above or use the link of render.
 
-Hit the above link with payload
+Please wait for a minute after opening the hosted url (https://bitespeed-0qid.onrender.com/) in browser and then test in postman, as render shuts down idle servers.
+
+Postman url to test: https://bitespeed-0qid.onrender.com/api/identify.
+
+Hit the above url with payload
 {
 "email": "biffsucks@hillvalley.edu",
 "phoneNumber": "919191"
