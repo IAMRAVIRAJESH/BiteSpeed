@@ -37,10 +37,10 @@ A Node.js service for identifying contact details on the basis of provided infor
 # API testing
 
 - For testing the APIs you can setup on local as stated above or use the link of render
-Link: https://bitespeed-0qid.onrender.com/api/identify.
+  Link: https://bitespeed-0qid.onrender.com/api/identify.
 
 Hit the above link with payload
 {
-    "email": "biffsucks@hillvalley.edu",
-    "phoneNumber": "919191"
+"email": "biffsucks@hillvalley.edu",
+"phoneNumber": "919191"
 }
