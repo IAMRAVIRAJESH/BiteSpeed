@@ -15,13 +15,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/api', routes);
 
-app.use((req: Request, res: Response) => {
-  res.status(404).json({
-    success: false,
-    message: `Route ${req.originalUrl} not found`,
-  });
-});
-
 const initializeApp = async (): Promise<void> => {
   try {
     await connectDB();
